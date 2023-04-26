@@ -1,5 +1,5 @@
 body {
-  max-width: 320px;
+  max-width: 380px;
   margin: auto;
   background: #ddd;
 }
@@ -7,6 +7,10 @@ body {
 img {
   display: block;
   max-width: 100%;
+}
+
+header {
+  background-image: url(../img/bg-heder-100.jpg);
 }
 
 .box-title {
@@ -33,4 +37,8 @@ img {
 footer {
   background: #060E17;
   color: #E3F4FF;
+}
+
+a {
+  color: #060E17;
 }
