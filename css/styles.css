@@ -4,15 +4,31 @@ body {
   background: #ddd;
 }
 
+h2 {
+  text-align: center;
+  font-size: 30px;
+  font-family: space;
+  font-weight: 300;
   margin: 30px;
   padding: 30px;
+}
+
+h3 {
+  text-align: center;
+  font-family: space;
+  font-weight: 300;
+}
+
 img {
   display: block;
   max-width: 100%;
+  font-size: 23px;
 }
 
 header {
   background-image: url(../img/bg-heder-100.jpg);
+  background-size: cover;
+  text-align: center;
 }
 
 .box-title {
@@ -29,6 +45,10 @@ header {
   color: #000;
 }
 
+.section-dark .setion-light {
+  border-radius: 20px; 
+  margin: 30px;
+}
 
 .card{
   width: 100px;
