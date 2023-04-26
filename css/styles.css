@@ -4,6 +4,8 @@ body {
   background: #ddd;
 }
 
+  margin: 30px;
+  padding: 30px;
 img {
   display: block;
   max-width: 100%;
@@ -16,6 +18,10 @@ header {
 .box-title {
   background: #000;
   color: #E3F4FF;
+  padding: 20px;
+  margin: 20px;
+
+
 }
 
 .setion-light {
@@ -23,15 +29,32 @@ header {
   color: #000;
 }
 
+
+.card{
+  width: 100px;
+}
+
+.contenair-svg {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-end;
+  justify-content: space-between;
+}
+
 .section-dark {
   background: #060E17;
   color: #E3F4FF;
-  
 }
 
 .cta {
   background: #060E17;
   color: #E3F4FF;
+  padding: 15;
+}
+
+.cta-light {
+  background: #E3F4FF;
+  color: #060E17;
 }
 
 footer {
@@ -42,3 +65,24 @@ footer {
 a {
   color: #060E17;
 }
+
+.contenair-cta {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.contenair-cta .cta , .contenair-cta .cta-light {
+  margin: 10px;
+  padding: 15px;
+  border-radius: 20px;   
+}
+
+.main {
+  display: flex;
+  flex-direction: column;
+}
+
+
+
+

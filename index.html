@@ -5,6 +5,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="css/styles.css">
     <title>17-techmag</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,700;1,300&family=Space+Grotesk:wght@300;400&display=swap" rel="stylesheet">
   </head>
   <body>
     <header>
@@ -14,36 +17,40 @@
         </h1>
         <p class="slogan">Le magazine qui parle des technologie!</p>
       </div>
-      <nav>       
-        <a class="cta" href="">Accéder aux articles</a>
-        <a class="cta cta-light" href="">Nous contacter</a>
+      <nav class="contenair-cta">       
+        <a class="cta" href="#">Accéder aux articles</a>
+        <a class="cta-light" href="#">Nous contacter</a>
       </nav>
     </header>
     <main>
-      <div class="setion-light">
+      <div class="setion-light main">
         <h2>Le monde change à pleine vitesse.</h2>
         <p>Techmag est le magazine qui vous accompagne dans 
           les changements de sociétés.
         </p>
-        <img src="img/enregistrement.svg" alt="">
+        <img src="img/enregistrement.svg" alt="" class="card">
       </div>
       <div class="section-dark">
         <h2>Nos produits</h2>
-          <div class="setion-light"> 
+          <div class="setion-light "> 
             <h3>L’oiseau Twitter est-t’il en train de mourir?</h3>
-            <a href="">En savoir plus</a>
-            <img src="img/oisau.svg" alt="">
+            <div class="contenair-svg">
+              <a href="#">En savoir plus</a>
+              <img src="img/oisau.svg" alt="" class="card">
+            </div>
           </div>
           <div class="setion-light"> 
             <h3>Le Bitcoin… bientôt plus fort que le dollar?</h3>
-            <a href="">En savoir plus</a>
-            <img src="img/billet.svg" alt="">
+            <div class="contenair-svg">
+              <a href="#">En savoir plus</a>
+              <img src="img/billet.svg" alt="" class="card">
+          </div>
           </div>
       </div>
-      <div class="setion-light">
+      <div class="setion-light contenair-cta">
         <h2>Nous contacter?</h2>
-        <a class="cta" href="">Facebook</a>
-        <a class="cta" href="">Instagram</a>
+        <a class="cta" href="#">Facebook</a>
+        <a class="cta" href="#">Instagram</a>
       </div>
     </main>
     <footer>
