@@ -8,3 +8,28 @@ img {
   display: block;
   max-width: 100%;
 }
+
+.box-title {
+  background: #000;
+  color: #fff;
+}
+
+.setion-light {
+  background: #E3F4FF;
+}
+
+.section-dark {
+  background: #060E17;
+  color: #fff;
+  
+}
+
+.cta {
+  background: #060E17;
+  color: #fff;
+}
+
+footer {
+  background: #060E17;
+  color: #fff;
+}
