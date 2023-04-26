@@ -11,25 +11,26 @@ img {
 
 .box-title {
   background: #000;
-  color: #fff;
+  color: #E3F4FF;
 }
 
 .setion-light {
   background: #E3F4FF;
+  color: #000;
 }
 
 .section-dark {
   background: #060E17;
-  color: #fff;
+  color: #E3F4FF;
   
 }
 
 .cta {
   background: #060E17;
-  color: #fff;
+  color: #E3F4FF;
 }
 
 footer {
   background: #060E17;
-  color: #fff;
+  color: #E3F4FF;
 }
